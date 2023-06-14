@@ -14,6 +14,7 @@ spring:
     properties:
       hibernate:
         query.in_clause_parameter_padding: true
+        dialect: org.hibernate.dialect.MySQLDialect
   web:
     resources:
       static-locations: classpath:/static/
